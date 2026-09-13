@@ -1,0 +1,25 @@
+================================================================================
+SCHEME NAME: Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)
+MINISTRY: Ministry of Agriculture and Farmers Welfare, Government of India
+IMPLEMENTING DEPARTMENT: Department of Agriculture and Farmers Welfare (DA&FW)
+LEVEL: Central Sector Scheme (100% funding by Government of India)
+OFFICIAL PORTAL: https://pmkisan.gov.in
+LAUNCH DATE: 24th February 2019 (Effective with retrospective effect from 1st December 2018)
+================================================================================
+
+1. SCHEME OBJECTIVE AND OVERVIEW
+The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is an ambitious Central Sector initiative launched by the Government of India under the Ministry of Agriculture and Farmers Welfare. The primary objective of the scheme is to augment the income of all landholding farmer families across the country to enable them to take care of expenses related to agriculture and allied activities as well as their domestic needs.
+
+The scheme aims to protect farmer families from falling into the clutches of moneylenders for meeting such expenses and to ensure their continuance in farming activities.
+
+2. FINANCIAL BENEFIT STRUCTURE
+- Total Financial Assistance: Rs. 6,000/- (Rupees Six Thousand only) per year per eligible farmer family.
+- Installment Frequency: The financial benefit is disbursed in three equal four-monthly installments of Rs. 2,000/- each.
+- Payment Periods:
+  * Period 1: April to July
+  * Period 2: August to November
+  * Period 3: December to March
+- Transfer Mode: Direct Benefit Transfer (DBT) directly into the Aadhaar-seeded bank accounts of beneficiary farmers through the Public Financial Management System (PFMS).
+
+3. NO INTERMEDIARIES OR CASH DISBURSEMENTS
+All payments under PM-KISAN are cashless and digital. There is no physical disbursement of cash or checks by local officials. The electronic funds transfer occurs straight from the central government's account directly into the verified savings bank account of the beneficiary farmer.

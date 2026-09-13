@@ -1,0 +1,746 @@
+/* ==========================================================================
+   National Student Education Loan Portal (Vidya Lakshmi Inspired Theme)
+   Government Digital Public Infrastructure Aesthetic
+   Distinct Palette: Deep Heritage Maroon & Warm Burnished Gold
+   ========================================================================== */
+
+:root {
+  --primary-maroon: #7A1C1C;
+  --primary-maroon-dark: #4A0E0E;
+  --primary-maroon-light: #9B2C2C;
+  --accent-gold: #B45309;
+  --accent-gold-bright: #D97706;
+  --accent-gold-light: #FEF3C7;
+  --accent-emerald: #065F46;
+  --accent-emerald-light: #ECFDF5;
+  --bg-portal: #F9F8F6;
+  --border-color: #D1D5DB;
+  --border-subtle: #E5E7EB;
+  --text-dark: #1F2937;
+  --text-muted: #4B5563;
+  --text-light: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  background-color: var(--bg-portal);
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.portal-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   Top Government Utility Bar (Bilingual, Accessibility, National Identity)
+   -------------------------------------------------------------------------- */
+.gov-utility-bar {
+  width: 100%;
+  background-color: #360B0B;
+  color: #E5E7EB;
+  padding: 0.35rem 2rem;
+  font-size: 0.78rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+
+.gov-utility-left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.gov-utility-left span {
+  font-weight: 600;
+  color: #FDE68A;
+}
+
+.gov-utility-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.gov-utility-right a,
+.gov-utility-right span {
+  color: #D1D5DB;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.gov-utility-right a:hover {
+  color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------
+   Gateway Reference Sync Bar
+   -------------------------------------------------------------------------- */
+.portal-copilot-link-banner {
+  background-color: #450A0A;
+  color: #FDE68A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.45rem 1.5rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #78350F;
+}
+
+.portal-copilot-link-banner code {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: 1px solid rgba(253, 230, 138, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   Portal Header (Maroon & Gold Government Layout)
+   -------------------------------------------------------------------------- */
+.portal-header {
+  width: 100%;
+  background: linear-gradient(180deg, var(--primary-maroon) 0%, var(--primary-maroon-dark) 100%);
+  color: var(--text-light);
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(74, 14, 14, 0.2);
+  border-bottom: 4px solid var(--accent-gold-bright);
+  box-sizing: border-box;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.portal-header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.emblem-badge-wrapper {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 2px solid var(--accent-gold-bright);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.header-brand h1 {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.portal-tagline {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.84rem;
+  color: #FEF3C7;
+  font-weight: 500;
+}
+
+.user-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(253, 230, 138, 0.25);
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+}
+
+.user-badge strong {
+  color: #FEF3C7;
+}
+
+.portal-text-btn {
+  background: #991B1B;
+  border: 1px solid #7F1D1D;
+  color: #FFFFFF;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.portal-text-btn:hover {
+  background: #B91C1C;
+}
+
+/* --------------------------------------------------------------------------
+   8-Step Sequential Workflow Stepper (Full-Width)
+   -------------------------------------------------------------------------- */
+.portal-stepper {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem 1.5rem;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+}
+
+.stepper-step {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  color: #6B7280;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.step-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #F3F4F6;
+  border: 1px solid #D1D5DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: #4B5563;
+}
+
+.stepper-step.active {
+  color: var(--primary-maroon);
+  font-weight: 700;
+  background-color: #FFF7ED;
+}
+
+.stepper-step.active .step-circle {
+  background-color: var(--primary-maroon);
+  border-color: var(--primary-maroon-dark);
+  color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(180, 83, 9, 0.2);
+}
+
+.stepper-step.done {
+  color: var(--accent-emerald);
+}
+
+.stepper-step.done .step-circle {
+  background-color: var(--accent-emerald);
+  border-color: var(--accent-emerald);
+  color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------
+   Main Content & Page Cards (Generous Full-Screen Proportions)
+   -------------------------------------------------------------------------- */
+.portal-main-content {
+  flex: 1;
+  max-width: 1100px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 1.5rem 3rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.portal-page-card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  border-top: 5px solid var(--primary-maroon);
+  padding: 2.5rem;
+  box-shadow: 0 8px 24px -4px rgba(74, 14, 14, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+}
+
+.page-header {
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid #F3F4F6;
+  padding-bottom: 1.25rem;
+}
+
+.step-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-maroon);
+  background-color: #FEE2E2;
+  border: 1px solid #FECACA;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.page-header h2 {
+  margin: 0 0 0.4rem 0;
+  color: var(--primary-maroon-dark);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.page-desc {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+/* Section Header Banners (Authentic Government Format) */
+.gov-section-header {
+  background-color: #FFF7ED;
+  border-left: 4px solid var(--accent-gold-bright);
+  border-right: 1px solid #FED7AA;
+  border-top: 1px solid #FED7AA;
+  border-bottom: 1px solid #FED7AA;
+  color: #9A3412;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.security-barrier-badge {
+  background-color: #FFFBEB;
+  border: 1px solid #FDE68A;
+  color: #92400E;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.test-credentials-box, .simulated-otp-box {
+  background-color: #FFFDF8;
+  border: 1px solid #FDE68A;
+  border-left: 4px solid var(--accent-gold-bright);
+  border-radius: 6px;
+  padding: 0.85rem 1.25rem;
+  font-size: 0.88rem;
+  color: #78350F;
+  margin-bottom: 1.5rem;
+}
+
+.test-credentials-box code {
+  display: block;
+  margin-top: 0.35rem;
+  font-family: 'Consolas', monospace;
+  color: var(--primary-maroon-dark);
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.simulated-otp-box p {
+  margin: 0.35rem 0 0.85rem 0;
+  font-size: 0.84rem;
+  color: #92400E;
+}
+
+/* --------------------------------------------------------------------------
+   Forms & Controls
+   -------------------------------------------------------------------------- */
+.portal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.portal-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.portal-form-group label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.portal-form-group input,
+.portal-form-group select {
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: #FFFFFF;
+  color: var(--text-dark);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.portal-form-group input:focus,
+.portal-form-group select:focus {
+  border-color: var(--primary-maroon);
+  box-shadow: 0 0 0 3px rgba(122, 28, 28, 0.12);
+}
+
+.portal-form-row {
+  display: flex;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .portal-form-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   CAPTCHA Display
+   -------------------------------------------------------------------------- */
+.captcha-display-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.captcha-box {
+  background: linear-gradient(135deg, #F3F4F6 25%, #E5E7EB 25%, #E5E7EB 50%, #F3F4F6 50%, #F3F4F6 75%, #E5E7EB 75%);
+  background-size: 16px 16px;
+  border: 2px solid #9CA3AF;
+  border-radius: 6px;
+  padding: 0.75rem 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.captcha-distorted-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+  color: var(--primary-maroon-dark);
+  transform: skewX(-14deg);
+  user-select: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.captcha-refresh-btn {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--primary-maroon);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.captcha-refresh-btn:hover {
+  background: #FEE2E2;
+}
+
+.portal-declaration-box {
+  background-color: #FFFDF8;
+  padding: 1.1rem;
+  border: 1px solid #FED7AA;
+  border-radius: 6px;
+}
+
+.checkbox-label {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+  color: var(--text-dark);
+  cursor: pointer;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.checkbox-label input {
+  margin-top: 0.25rem;
+  accent-color: var(--primary-maroon);
+  width: 18px;
+  height: 18px;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.portal-primary-btn {
+  background: linear-gradient(180deg, var(--primary-maroon) 0%, var(--primary-maroon-dark) 100%);
+  color: #FFFFFF;
+  border: 1px solid var(--primary-maroon-dark);
+  padding: 0.8rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(74, 14, 14, 0.2);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.portal-primary-btn:hover:not(:disabled) {
+  background: linear-gradient(180deg, var(--primary-maroon-light) 0%, var(--primary-maroon) 100%);
+  box-shadow: 0 4px 10px rgba(74, 14, 14, 0.3);
+}
+
+.portal-primary-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.portal-secondary-btn {
+  background-color: #FFFFFF;
+  color: var(--primary-maroon);
+  border: 1px solid var(--primary-maroon);
+  padding: 0.65rem 1.3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.portal-secondary-btn:hover:not(:disabled) {
+  background-color: #FEE2E2;
+}
+
+/* --------------------------------------------------------------------------
+   Alerts & Notifications
+   -------------------------------------------------------------------------- */
+.portal-alert {
+  padding: 0.85rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  margin-bottom: 1.25rem;
+}
+
+.portal-alert.error {
+  background-color: #FEF2F2;
+  border: 1px solid #FECACA;
+  color: #991B1B;
+}
+
+/* --------------------------------------------------------------------------
+   Confirmation Page
+   -------------------------------------------------------------------------- */
+.confirmation-card {
+  text-align: center;
+}
+
+.confirmation-header .success-check-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #DCFCE7;
+  border: 2px solid #86EFAC;
+  color: #166534;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem auto;
+}
+
+.ack-receipt-box {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-top: 3px solid var(--accent-gold-bright);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.75rem 0;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ack-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #F3F4F6;
+  font-size: 0.92rem;
+}
+
+.ack-row:last-child {
+  border-bottom: none;
+}
+
+.ack-label {
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.ack-value {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.ack-value.highlight {
+  color: var(--primary-maroon);
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.ack-value.code-font {
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.portal-notice-box {
+  background-color: #FFFBEB;
+  border-left: 4px solid var(--accent-gold-bright);
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 0.88rem;
+  color: #92400E;
+  margin-bottom: 1.75rem;
+}
+
+.portal-notice-box p {
+  margin: 0.3rem 0 0 0;
+}
+
+/* --------------------------------------------------------------------------
+   Government Multi-Column Footer (Deep Maroon Base)
+   -------------------------------------------------------------------------- */
+.gov-portal-footer {
+  width: 100%;
+  background-color: #360B0B;
+  color: #E5E7EB;
+  border-top: 4px solid var(--accent-gold-bright);
+  margin-top: auto;
+  box-sizing: border-box;
+}
+
+.gov-footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem 1.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.gov-footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.3fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 860px) {
+  .gov-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.gov-footer-col h3 {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--accent-gold-bright);
+  display: inline-block;
+  padding-bottom: 0.35rem;
+}
+
+.gov-footer-col p {
+  color: #D1D5DB;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  margin: 0 0 0.85rem 0;
+}
+
+.gov-footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.gov-footer-links-list li a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 0.86rem;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gov-footer-links-list li a:hover {
+  color: #FDE68A;
+}
+
+.gov-helpline-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.86rem;
+}
+
+.gov-helpline-box .help-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.gov-helpline-box .help-item strong {
+  color: #FEF3C7;
+}
+
+.gov-footer-legal-bar {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #9CA3AF;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nic-stamp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #D1D5DB;
+  font-size: 0.78rem;
+}

@@ -1,0 +1,34 @@
+================================================================================
+PM-KISAN: OPERATIONAL GUIDELINES AND ELIGIBILITY FRAMEWORK
+MINISTRY: Ministry of Agriculture and Farmers Welfare, Government of India
+SOURCE: Official Operational Guidelines (https://pmkisan.gov.in)
+================================================================================
+
+1. DEFINITION OF BENEFICIARY FARMER FAMILY
+Under the operational guidelines of PM-KISAN, a "farmer family" is defined as:
+A family unit consisting of a husband, wife, and minor children who own cultivable landholding as per the land records of the concerned State/UT.
+Only one benefit of Rs. 6,000/- per year is admissible per family unit. Adult sons or daughters who have separate cultivable land records in their own names are treated as separate families for the purpose of the scheme.
+
+2. CUT-OFF DATE AND LANDHOLDING ELIGIBILITY
+Initially, the scheme covered only Small and Marginal Farmers (SMFs) holding cultivable land up to 2 hectares. Effective from 1st June 2019, the Union Cabinet expanded the coverage of PM-KISAN to all landholding farmer families across the country, irrespective of the size of their landholdings.
+The cut-off date for determination of eligibility of beneficiaries was set as 01.02.2019. Any transfer of ownership of cultivable land occurring after 01.02.2019 is not eligible for benefits for five years, except in cases of inheritance resulting from the death of the landholder.
+
+3. STATUTORY EXCLUSION CRITERIA
+The following categories of beneficiaries of higher economic status are strictly excluded from the benefit of the scheme:
+(a) All Institutional Landholders.
+(b) Farmer families in which one or more of its members belong to the following categories:
+    i. Former and present holders of constitutional posts.
+    ii. Former and present Ministers / Ministers of State and former / present Members of Lok Sabha, Rajya Sabha, State Legislative Assemblies, or State Legislative Councils. Former and present Mayors of Municipal Corporations and former and present Chairpersons of District Panchayats.
+    iii. All serving or retired officers and employees of Central / State Government Ministries, Offices, Departments, and field units; Central or State PSEs and attached offices / autonomous institutions under Government; as well as regular employees of the Local Bodies (Excluding Multi Tasking Staff / Class IV / Group D employees).
+    iv. All superannuated or retired pensioners whose monthly pension is Rs. 10,000/- or more (Excluding Multi Tasking Staff / Class IV / Group D employees).
+    v. All persons who paid Income Tax in the last assessment year.
+    vi. Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects registered with professional bodies and carrying out profession by undertaking practice.
+
+4. MANDATORY E-KYC AND LAND RECORD SEEDING
+To prevent leakages and fraudulent disbursements, the Ministry of Agriculture and Farmers Welfare has mandated:
+- Aadhaar Seeding: Beneficiary bank accounts must be actively linked and seeded with the beneficiary's 12-digit Aadhaar number with NPCI mapping.
+- Mandatory e-KYC: Completion of e-KYC is mandatory for all registered PM-KISAN beneficiaries. e-KYC can be completed via:
+  * OTP-based authentication using Aadhaar-linked mobile number on the PM-KISAN portal or PM-KISAN mobile app.
+  * Biometric authentication at local Common Service Centres (CSCs).
+  * Facial recognition system available on the official PM-KISAN mobile app.
+- Land Record Verification: Beneficiary land ownership records (Khata / Khasra / Survey numbers) must be verified and seeded against the digitised land records database of the respective State / UT Revenue Department.

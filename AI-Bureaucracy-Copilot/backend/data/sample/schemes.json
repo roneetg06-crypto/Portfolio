@@ -1,0 +1,772 @@
+[
+  {
+    "scheme_id": "SCH-HLT-001",
+    "name": "Ayushman Bharat - PM-JAY",
+    "sector": "health",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "National Health Authority",
+    "short_description": "Health coverage of up to Rs. 5 lakh per family per year for secondary and tertiary care hospitalization.",
+    "benefits": "Rs. 5,000,000 annual health cover per family across empaneled public and private hospitals.",
+    "official_link": "https://abdm.gov.in/",
+    "required_info": [
+      {
+        "name": "ration_card_number",
+        "label": "Ration Card or Socio-Economic Caste Census (SECC) ID",
+        "type": "text",
+        "required": true,
+        "help_text": "Enter your 12-digit Ration Card or SECC enumeration number"
+      },
+      {
+        "name": "annual_family_income",
+        "label": "Annual Family Income (INR)",
+        "type": "number",
+        "required": true,
+        "help_text": "Total gross income of all household members"
+      },
+      {
+        "name": "preferred_hospital_type",
+        "label": "Preferred Hospital Category",
+        "type": "dropdown",
+        "required": false,
+        "options": [
+          "Public Government Hospital",
+          "Private Empaneled Hospital",
+          "No Preference"
+        ]
+      },
+      {
+        "name": "has_pre_existing_condition",
+        "label": "Do you or any family member have a pre-existing chronic condition?",
+        "type": "boolean",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card",
+        "required": true,
+        "description": "Government issued Aadhaar identification card"
+      },
+      {
+        "name": "ration_card",
+        "label": "Ration Card / BPL Document",
+        "required": true,
+        "description": "Valid white/yellow ration card or official BPL proof"
+      },
+      {
+        "name": "income_certificate",
+        "label": "Income Certificate",
+        "required": false,
+        "description": "Certificate issued by Tahsildar or local Revenue Officer"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-002",
+    "name": "National Health Mission (NHM)",
+    "sector": "health",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "Ministry of Health and Family Welfare",
+    "short_description": "Universal access to equitable, affordable & quality health care services.",
+    "benefits": "Free essential drugs, maternal and child healthcare, and diagnostic services.",
+    "official_link": "https://nhm.gov.in",
+    "required_info": [
+      {
+        "name": "primary_service_required",
+        "label": "Service Category Required",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Maternal Health Care",
+          "Immunization & Child Health",
+          "Communicable Disease Treatment",
+          "Free Diagnostic Tests"
+        ]
+      },
+      {
+        "name": "nearest_phc_name",
+        "label": "Nearest Primary Health Centre (PHC) / Community Health Centre",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "expected_delivery_or_treatment_date",
+        "label": "Expected Treatment / Delivery Date",
+        "type": "date",
+        "required": false
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "identity_card",
+        "label": "Citizen Identity Card (Aadhaar / Voter ID)",
+        "required": true,
+        "description": "Valid government photo identity document"
+      },
+      {
+        "name": "mcp_card",
+        "label": "Mother and Child Protection (MCP) Card",
+        "required": false,
+        "description": "RNTCP / MCP card issued by primary health worker"
+      }
+    ],
+    "applicable_gender": "female",
+    "applicable_age_min": 18,
+    "applicable_age_max": 49
+  },
+  {
+    "scheme_id": "SCH-HLT-003",
+    "name": "Pradhan Mantri Ayushman Bharat Health Infrastructure Mission (PM-ABHIM)",
+    "sector": "health",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "Ministry of Health and Family Welfare",
+    "short_description": "Strengthening health care infrastructure across urban and rural areas.",
+    "benefits": "Critical care hospital blocks and diagnostic laboratories across all districts.",
+    "official_link": "https://nhsrcindia.org/pradhan-mantri-aatmanirbhar-swasthya-bharat-pm-asby",
+    "required_info": [
+      {
+        "name": "facility_type",
+        "label": "Health Care Facility Type",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "District Hospital Critical Care Block",
+          "Integrated Public Health Lab",
+          "Urban Health & Wellness Centre"
+        ]
+      },
+      {
+        "name": "referral_required",
+        "label": "Has the patient been formally referred by a sub-district health centre?",
+        "type": "boolean",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "referral_slip",
+        "label": "Official Doctor Referral Slip",
+        "required": true,
+        "description": "Referral slip from primary or community medical officer"
+      },
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card",
+        "required": true,
+        "description": "Applicant Aadhaar Card"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-004",
+    "name": "Dr. YSR Aarogyasri Scheme",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Andhra Pradesh"
+    ],
+    "issuing_authority": "Dr. YSR Aarogyasri Health Care Trust",
+    "short_description": "Comprehensive health insurance scheme providing financial protection for BPL families.",
+    "benefits": "Free medical treatment up to Rs. 5 lakh for catastrophic illnesses in empaneled hospitals.",
+    "official_link": "https://www.govtschemes.in/dr-ysr-aarogyasri-scheme",
+    "required_info": [
+      {
+        "name": "white_ration_card_number",
+        "label": "White Ration Card or Rice Card Number",
+        "type": "text",
+        "required": true,
+        "help_text": "Enter Andhra Pradesh White Ration / Rice Card number"
+      },
+      {
+        "name": "patient_category",
+        "label": "Patient Category",
+        "type": "radio",
+        "required": true,
+        "options": [
+          "General",
+          "Critical Illness / Oncology",
+          "Senior Citizen (60+)"
+        ]
+      },
+      {
+        "name": "tentative_surgery_date",
+        "label": "Tentative Procedure / Surgery Date",
+        "type": "date",
+        "required": false
+      },
+      {
+        "name": "family_bpl_declaration",
+        "label": "I declare our family annual income is within the BPL limit (under Rs. 5,00,000)",
+        "type": "checkbox",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "aarogyasri_card",
+        "label": "YSR Aarogyasri Health Card / Rice Card",
+        "required": true,
+        "description": "Card issued by Dr. YSR Aarogyasri Health Care Trust"
+      },
+      {
+        "name": "aadhaar_card",
+        "label": "Patient Aadhaar Card",
+        "required": true,
+        "description": "Aadhaar card of patient"
+      },
+      {
+        "name": "medical_diagnostic_report",
+        "label": "Diagnostic / Pathology Report",
+        "required": false,
+        "description": "Diagnostic reports supporting the treatment requirement"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-006",
+    "name": "Karunya Health Insurance Scheme (KHI)",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Kerala"
+    ],
+    "issuing_authority": "State Health Agency Kerala",
+    "short_description": "Financial assistance for poor families suffering from major illnesses like cancer & kidney diseases.",
+    "benefits": "Coverage up to Rs. 5 lakh per family for critical illness treatment.",
+    "official_link": "https://sha.kerala.gov.in",
+    "required_info": [
+      {
+        "name": "household_monthly_income",
+        "label": "Household Monthly Income (INR)",
+        "type": "number",
+        "required": true
+      },
+      {
+        "name": "illness_category",
+        "label": "Diagnosed Illness Category",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Cancer Care",
+          "Kidney / Dialysis",
+          "Cardiovascular Surgery",
+          "Neuro Surgery",
+          "Other Critical"
+        ]
+      },
+      {
+        "name": "treating_institution",
+        "label": "Empaneled Hospital / Medical College",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "no_other_insurance_declaration",
+        "label": "I confirm no active private commercial health insurance policy covers this hospitalization.",
+        "type": "checkbox",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card",
+        "required": true,
+        "description": "Patient's Aadhaar identification card"
+      },
+      {
+        "name": "income_certificate",
+        "label": "Income Certificate from Village Officer",
+        "required": true,
+        "description": "Official Kerala Revenue Department income certificate"
+      },
+      {
+        "name": "treatment_estimate",
+        "label": "Doctor Prescription & Cost Estimate",
+        "required": true,
+        "description": "Cost estimate signed by the head of department / civil surgeon"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-007",
+    "name": "Aardram Mission Health Care Scheme",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Kerala"
+    ],
+    "issuing_authority": "Department of Health Services Kerala",
+    "short_description": "Transformation of Primary Health Centres into Family Health Centres with patient-friendly services.",
+    "benefits": "Free lab testing, low-cost generic drugs, and specialized outpatient care.",
+    "official_link": "https://aardram.kerala.gov.in",
+    "required_info": [
+      {
+        "name": "local_body_type",
+        "label": "Local Body Jurisdiction",
+        "type": "radio",
+        "required": true,
+        "options": [
+          "Grama Panchayat",
+          "Municipality",
+          "Municipal Corporation"
+        ]
+      },
+      {
+        "name": "fhc_name",
+        "label": "Registered Family Health Centre (FHC)",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card / Resident ID",
+        "required": true,
+        "description": "Valid resident identification document"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-008",
+    "name": "Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY)",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Maharashtra"
+    ],
+    "issuing_authority": "State Health Assurance Society Maharashtra",
+    "short_description": "Cashless health insurance scheme for identified families in Maharashtra.",
+    "benefits": "Coverage up to Rs. 1.5 lakh per family per year for 996 surgeries, therapies, and procedures.",
+    "official_link": "https://www.resources.maharashtra.gov.in",
+    "required_info": [
+      {
+        "name": "ration_card_color",
+        "label": "Ration Card Color Category",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Yellow Ration Card (BPL)",
+          "Orange Ration Card (APL under limit)",
+          "Antyodaya Anna Yojana (AAY)"
+        ]
+      },
+      {
+        "name": "ration_card_number",
+        "label": "Ration Card Number",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "is_farmer_suicide_prone_district",
+        "label": "Resident of identified agrarian distress district?",
+        "type": "boolean",
+        "required": false
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "ration_card",
+        "label": "Yellow / Orange Ration Card",
+        "required": true,
+        "description": "Valid eligible ration card copy"
+      },
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card",
+        "required": true,
+        "description": "Patient Aadhaar Card"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-009",
+    "name": "Balasaheb Thackeray Aapla Dawakhana",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Maharashtra"
+    ],
+    "issuing_authority": "Public Health Department Maharashtra",
+    "short_description": "Urban healthcare initiative offering free medical consultations and basic diagnostics.",
+    "benefits": "Free OPD consultation, basic lab tests, and essential medications.",
+    "official_link": "https://arogya.maharashtra.gov.in",
+    "required_info": [
+      {
+        "name": "ward_or_zone",
+        "label": "Municipal Ward / Zone",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "visit_date",
+        "label": "Intended Visit Date",
+        "type": "date",
+        "required": false
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "photo_id",
+        "label": "Government Photo ID (Aadhaar / Voter ID)",
+        "required": true,
+        "description": "Any valid government photo identity card"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-010",
+    "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+    "sector": "health",
+    "level": "state",
+    "applicable_states": [
+      "Tamil Nadu"
+    ],
+    "issuing_authority": "Tamil Nadu Health Systems Project",
+    "short_description": "Cashless hospitalisation scheme for eligible families in Tamil Nadu.",
+    "benefits": "Financial coverage up to Rs. 5 lakh per annum per family.",
+    "official_link": "https://www.cmchistn.com",
+    "required_info": [
+      {
+        "name": "smart_ration_card_number",
+        "label": "Tamil Nadu Smart Family Card (Ration Card) Number",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "annual_family_income",
+        "label": "Annual Family Income (INR)",
+        "type": "number",
+        "required": true
+      },
+      {
+        "name": "income_limit_declaration",
+        "label": "I declare our family annual income is within the scheme ceiling limit of Rs. 1,20,000 per annum.",
+        "type": "checkbox",
+        "required": true
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "smart_ration_card",
+        "label": "Tamil Nadu Smart Ration Card",
+        "required": true,
+        "description": "Digital Smart Family Card copy"
+      },
+      {
+        "name": "income_certificate",
+        "label": "Revenue Income Certificate",
+        "required": true,
+        "description": "Income certificate issued by competent revenue authority"
+      },
+      {
+        "name": "aadhaar_card",
+        "label": "Aadhaar Card",
+        "required": true,
+        "description": "Patient Aadhaar Identification Card"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-EDU-001",
+    "name": "National Student Education Loan",
+    "sector": "education",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "Ministry of Education, Government of India",
+    "short_description": "Central sector education loan scheme offering collateral-free financial assistance up to Rs. 15 Lakhs for students pursuing higher education across all Indian states and Union Territories, featuring full interest subsidy and 1% concession for female students.",
+    "benefits": "Collateral-free loan up to Rs. 7.5 Lakhs (and up to Rs. 15 Lakhs with joint parent guarantee), full interest subsidy during moratorium period (course duration + 1 year) for families with income up to Rs. 4.5 Lakhs, 1% interest rate discount for female students, and repayment tenures up to 15 years.",
+    "official_link": "https://www.vidyalakshmi.co.in",
+    "eligibility_criteria": {
+      "min_age": 16,
+      "max_age": 35,
+      "citizenship": "Indian",
+      "applicable_states": "All States and Union Territories of India",
+      "max_annual_family_income": 800000,
+      "min_marks_percentage": 50,
+      "admission_requirement": "Confirmed admission to a recognized higher education degree, diploma, or professional course in an accredited college or university",
+      "covered_courses": "Engineering (B.Tech/M.Tech), Medicine (MBBS/MD), Management (MBA), Law (LLB/LLM), Pure Sciences, Polytechnic, and other AICTE/UGC/MCI accredited professional programs",
+      "collateral_requirement": "No collateral or third-party guarantee required for loans up to Rs. 7.5 Lakhs under Central Credit Guarantee Fund Scheme (CGFSEL)",
+      "interest_subsidy": "100% full interest subsidy during the moratorium period (course duration + 12 months) for students from families with annual income up to Rs. 4,50,000 under the Central Sector Interest Subsidy (CSIS) scheme; 1% interest rate concession for female applicants",
+      "repayment_tenure": "Repayment tenure up to 15 years with flexible EMI starting 1 year after course completion",
+      "mandatory_rules": [
+        "Applicant must be an Indian citizen residing in any State or Union Territory.",
+        "Applicant age must be between 16 and 35 years at the time of application.",
+        "Must have secured admission in an approved higher education course in a recognized college/university.",
+        "Must have scored at least 50% marks in the previous qualifying examination.",
+        "To be eligible for full government interest subsidy and credit guarantee, annual family income must not exceed Rs. 8,00,000.",
+        "Co-borrower (parent or legal guardian) is mandatory."
+      ]
+    },
+    "required_info": [
+      {
+        "name": "date_of_birth",
+        "label": "Student Date of Birth",
+        "type": "date",
+        "required": true,
+        "help_text": "Enter student date of birth (YYYY-MM-DD)"
+      },
+      {
+        "name": "category",
+        "label": "Social Category",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "General",
+          "OBC",
+          "SC",
+          "ST",
+          "EWS"
+        ],
+        "help_text": "Select category for interest subsidy assessment"
+      },
+      {
+        "name": "parent_name",
+        "label": "Parent / Guardian Full Name",
+        "type": "text",
+        "required": true,
+        "help_text": "Full name of father, mother, or legal guardian"
+      },
+      {
+        "name": "parent_occupation",
+        "label": "Parent / Guardian Occupation",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Salaried / Government",
+          "Salaried / Private",
+          "Business / Self-Employed",
+          "Agriculture / Farmer",
+          "Retired / Other"
+        ],
+        "help_text": "Primary occupation of co-borrower"
+      },
+      {
+        "name": "annual_family_income",
+        "label": "Annual Family Income (INR)",
+        "type": "number",
+        "required": true,
+        "help_text": "Gross total family income from all sources"
+      },
+      {
+        "name": "aadhaar_last_four",
+        "label": "Student Aadhaar Number (Last 4 Digits)",
+        "type": "text",
+        "required": true,
+        "help_text": "Enter the last 4 digits of student Aadhaar card"
+      },
+      {
+        "name": "course",
+        "label": "Course / Degree Name",
+        "type": "text",
+        "required": true,
+        "help_text": "e.g. B.Tech Computer Science, MBBS, MBA, etc."
+      },
+      {
+        "name": "college",
+        "label": "College / University Name",
+        "type": "text",
+        "required": true,
+        "help_text": "Full recognized name of the educational institution"
+      },
+      {
+        "name": "loan_amount",
+        "label": "Total Loan Amount Requested (INR)",
+        "type": "number",
+        "required": true,
+        "help_text": "Total required education loan amount"
+      },
+      {
+        "name": "tuition_fee",
+        "label": "Total Course Tuition Fee (INR)",
+        "type": "number",
+        "required": true,
+        "help_text": "Course tuition fees payable to the college"
+      },
+      {
+        "name": "living_expenses",
+        "label": "Hostel & Living Expenses (INR)",
+        "type": "number",
+        "required": true,
+        "help_text": "Estimated accommodation and living expenses"
+      },
+      {
+        "name": "bank_preference",
+        "label": "Preferred Lending Bank",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "State Bank of India",
+          "Punjab National Bank",
+          "Bank of Baroda",
+          "Canara Bank",
+          "Union Bank of India",
+          "HDFC Bank"
+        ],
+        "help_text": "Select your preferred lending partner bank"
+      },
+      {
+        "name": "loan_tenure",
+        "label": "Loan Repayment Tenure",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "5 Years",
+          "7 Years",
+          "10 Years",
+          "15 Years"
+        ],
+        "help_text": "Preferred repayment tenure after graduation moratorium"
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "admission_letter",
+        "label": "Admission Letter",
+        "required": true,
+        "description": "Official college or university admission offer letter"
+      },
+      {
+        "name": "fee_structure",
+        "label": "Fee Structure",
+        "required": true,
+        "description": "Official fee schedule from the educational institution"
+      },
+      {
+        "name": "student_aadhaar",
+        "label": "Student Aadhaar",
+        "required": true,
+        "description": "Government-issued Aadhaar identification card of the student"
+      },
+      {
+        "name": "parent_income_certificate",
+        "label": "Parent Income Certificate",
+        "required": true,
+        "description": "Income certificate or salary certificate issued by competent authority"
+      }
+    ],
+    "applicable_gender": "all",
+    "applicable_age_min": 0,
+    "applicable_age_max": 120
+  },
+  {
+    "scheme_id": "SCH-HLT-011",
+    "name": "Pradhan Mantri Senior Citizen Healthcare & Vaya Vandana Assist",
+    "sector": "health",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "Ministry of Health & Social Justice",
+    "short_description": "Dedicated healthcare and geriatric support coverage for senior citizens aged 60 and above across all states.",
+    "benefits": "Comprehensive outpatient geriatric consultations, specialized chronic care medications, and annual free diagnostic screenings.",
+    "official_link": "https://socialjustice.gov.in/seniorcare",
+    "applicable_gender": "all",
+    "applicable_age_min": 60,
+    "applicable_age_max": 120,
+    "required_info": [
+      {
+        "name": "senior_citizen_id",
+        "label": "Senior Citizen National Identity or Pension ID",
+        "type": "text",
+        "required": true,
+        "help_text": "Enter Pension Payment Order (PPO) number or Senior Citizen Card ID"
+      },
+      {
+        "name": "geriatric_care_requirement",
+        "label": "Primary Geriatric Healthcare Service Required",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Chronic Arthritis & Mobility Care",
+          "Cardiovascular & Hypertension Support",
+          "Vision & Hearing Aid Subsidy",
+          "General Geriatric Checkup"
+        ]
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "age_proof",
+        "label": "Proof of Age (Aadhaar / Passport / Voter ID)",
+        "required": true,
+        "description": "Valid government document verifying age 60 or above"
+      },
+      {
+        "name": "medical_prescription",
+        "label": "Recent Medical Prescription or Doctor Report",
+        "required": true,
+        "description": "Signed prescription from registered medical practitioner"
+      }
+    ]
+  },
+  {
+    "scheme_id": "SCH-HLT-012",
+    "name": "Rashtriya Kishor Swasthya Karyakram — Adolescent Girls Nutrition & Health",
+    "sector": "health",
+    "level": "central",
+    "applicable_states": [],
+    "issuing_authority": "Ministry of Health and Family Welfare",
+    "short_description": "Targeted adolescent health, nutritional supplementation, and wellness program exclusively for young girls aged 10 to 19.",
+    "benefits": "Free weekly iron and folic acid supplementation, adolescent wellness counseling, and hygiene healthcare kits.",
+    "official_link": "https://nhm.gov.in/rksk",
+    "applicable_gender": "female",
+    "applicable_age_min": 10,
+    "applicable_age_max": 19,
+    "required_info": [
+      {
+        "name": "school_or_institution",
+        "label": "Name of School / Anganwadi Centre",
+        "type": "text",
+        "required": true,
+        "help_text": "Enrolled government/private school or local Anganwadi centre"
+      },
+      {
+        "name": "counseling_service_needed",
+        "label": "Healthcare & Counseling Support Requested",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Nutrition & Anemia Assessment",
+          "Hygiene & Menstrual Health Care",
+          "Mental Well-being & Guidance"
+        ]
+      }
+    ],
+    "required_documents": [
+      {
+        "name": "student_id_or_birth_cert",
+        "label": "Student ID Card / Birth Certificate / Aadhaar",
+        "required": true,
+        "description": "Valid proof confirming student identity and age between 10 and 19"
+      }
+    ]
+  }
+]

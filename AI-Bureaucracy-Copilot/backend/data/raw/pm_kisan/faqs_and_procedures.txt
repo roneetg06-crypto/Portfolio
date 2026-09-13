@@ -1,0 +1,43 @@
+================================================================================
+PM-KISAN: FREQUENTLY ASKED QUESTIONS (FAQS), REGISTRATION, AND GRIEVANCE REDRESSAL
+MINISTRY: Ministry of Agriculture and Farmers Welfare, Government of India
+SOURCE: Official FAQs and Procedures (https://pmkisan.gov.in)
+================================================================================
+
+1. REGISTRATION PROCEDURE
+Question: How can a farmer register for the PM-KISAN scheme?
+Answer: Farmers can register through multiple convenient channels:
+(a) Online Self-Registration: Visit the official portal (https://pmkisan.gov.in) -> Farmers Corner -> Click on "New Farmer Registration". Enter Aadhaar number, mobile number, State, District, Sub-District, Block, Village, land ownership particulars (Survey / Khata / Khasra number, land area in hectares), and bank account details.
+(b) Common Service Centres (CSCs): Farmers can visit any nearby village CSC or e-Mitra kiosk where the VLE (Village Level Entrepreneur) assists with online registration upon verification of Aadhaar and land documents.
+(c) State Nodal Officers / Revenue Officials: Farmers may submit physical registration forms to the local Village Patwari, Lekhpal, or designated State Agricultural Nodal Officer.
+
+2. MANDATORY DOCUMENTS REQUIRED FOR REGISTRATION
+Question: What documents and details are required to apply for PM-KISAN?
+Answer:
+1. Aadhaar Card (Mandatory for identification across all States/UTs).
+2. Proof of Landholding: Updated Record of Rights (RoR), Jamabandi, or Khatauni issued by the State Revenue Department showing the farmer as the legal owner of cultivable land.
+3. Bank Account Details: Savings Bank Account Number and IFSC code of an Aadhaar-linked and NPCI-mapped account.
+4. Active Mobile Number for receiving OTP authentications and installment dispatch SMS notifications.
+
+3. BENEFICIARY STATUS TRACKING
+Question: How can a farmer check the status of their PM-KISAN application or installment?
+Answer: Farmers can check real-time installment status without logging in:
+1. Visit https://pmkisan.gov.in.
+2. In the "Farmers Corner" section, click on "Know Your Status".
+3. Enter your PM-KISAN Registration Number (or Mobile Number) and the security captcha code.
+4. The dashboard displays the complete payment timeline, FTO (Fund Transfer Order) generation status, bank account validation status, and reasons for any rejection or pending status.
+
+4. RECTIFICATION AND UPDATES
+Question: How can a farmer correct incorrect Aadhaar details or update their bank account details?
+Answer: Under "Farmers Corner" on the portal, options are provided for:
+- "Name Correction as per Aadhaar": Update legal spelling and details matching UIDAI records.
+- "Updation of Self Registered Farmer": Modify land details or personal records.
+- Re-seeding bank account with NPCI via your local bank branch if DBT transactions fail.
+
+5. GRIEVANCE REDRESSAL AND HELPLINE CONTACTS
+Question: Whom should a farmer contact in case of non-receipt of installments or grievances?
+Answer: Multiple institutional grievance channels are maintained by the Government of India:
+- PM-KISAN Toll-Free Helpline: 155261 / 1800-115-526
+- Direct Ministry Telephone: 011-23381092, 011-24300606
+- Email Support: pmkisan-ict@gov.in
+- Online Helpdesk Query: Go to PM-KISAN Portal -> "Helpdesk - Query Form". Farmers can log their grievance using Aadhaar or Registration number, receive a tracking ticket, and monitor resolution by the State Agricultural Department.

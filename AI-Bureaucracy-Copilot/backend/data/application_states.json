@@ -1,0 +1,86 @@
+{
+  "5c5877cd-e80d-46e7-b8c8-d91adefe9eaf": {
+    "run_id": "5c5877cd-e80d-46e7-b8c8-d91adefe9eaf",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "720fb587-a6cc-4543-9c2d-14bc89375851",
+    "automation_status": "AWAITING_HUMAN_ACTION",
+    "application_status": "PENDING_CITIZEN_ACTION",
+    "current_step_index": 6,
+    "portal_session_id": "ed255755-8641-48b5-a946-c4470509dafa",
+    "acknowledgment_number": "ACK-EDU-2026-AC6868",
+    "last_completed_action": "OTP_COMPLETED",
+    "last_updated": "2026-09-11T04:37:51.271545+00:00"
+  },
+  "8969af8a-1c1e-4080-97f2-58b2f937cde6": {
+    "run_id": "8969af8a-1c1e-4080-97f2-58b2f937cde6",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "616ce7f2-eb25-4e10-8b7e-5fc215412fd9",
+    "automation_status": "AWAITING_HUMAN_ACTION",
+    "application_status": "PENDING_CITIZEN_ACTION",
+    "current_step_index": 6,
+    "portal_session_id": "fbdffb1f-eb9b-48d6-816f-887b7076c980",
+    "acknowledgment_number": "ACK-EDU-2026-0EBC1A",
+    "last_completed_action": "OTP_COMPLETED",
+    "last_updated": "2026-09-11T05:26:23.964153+00:00"
+  },
+  "525b0942-cae4-47fd-812b-9656c16cc320": {
+    "run_id": "525b0942-cae4-47fd-812b-9656c16cc320",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "8862e897-7cdc-4400-b766-8441f2b9defb",
+    "automation_status": "COMPLETED",
+    "application_status": "SUBMITTED",
+    "current_step_index": 12,
+    "portal_session_id": "db10e9d8-72ef-4b89-9c8e-29b7a830723e",
+    "acknowledgment_number": "ACK-EDU-2026-916414",
+    "last_completed_action": "OTP_COMPLETED",
+    "last_updated": "2026-09-11T06:38:24.319372+00:00"
+  },
+  "2c1d2b6e-926b-4e1c-abee-ed1d8743861b": {
+    "run_id": "2c1d2b6e-926b-4e1c-abee-ed1d8743861b",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "54161eb2-fff9-4076-901e-4f510e2abf0e",
+    "automation_status": "AWAITING_HUMAN_ACTION",
+    "application_status": "PENDING_CITIZEN_ACTION",
+    "current_step_index": 6,
+    "portal_session_id": "3d79da32-cbf5-4998-949d-12fd6e56230e",
+    "acknowledgment_number": null,
+    "last_completed_action": "OTP",
+    "last_updated": "2026-09-11T09:13:25.698720+00:00"
+  },
+  "160a35b1-8622-4ffd-b159-ba95f4068740": {
+    "run_id": "160a35b1-8622-4ffd-b159-ba95f4068740",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "f3d424ff-39c3-47f4-85e1-22c522de59c3",
+    "automation_status": "COMPLETED",
+    "application_status": "SUBMITTED",
+    "current_step_index": 8,
+    "portal_session_id": "938d541b-543e-4337-ae1b-f8ae1015ac4c",
+    "acknowledgment_number": "ACK-EDU-2026-996681",
+    "last_completed_action": "FINAL_SUBMIT",
+    "last_updated": "2026-09-11T09:46:42.436652+00:00"
+  },
+  "6fef8de7-7d91-412c-a94a-ea7fd1406aa6": {
+    "run_id": "6fef8de7-7d91-412c-a94a-ea7fd1406aa6",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "cd3edbb7-e17a-4f0e-b940-f676408426f5",
+    "automation_status": "COMPLETED",
+    "application_status": "SUBMITTED",
+    "current_step_index": 8,
+    "portal_session_id": "a52dc3d4-7ae0-46ca-ae0c-46ccff520c96",
+    "acknowledgment_number": "ACK-EDU-2026-481558",
+    "last_completed_action": "FINAL_SUBMIT",
+    "last_updated": "2026-09-11T19:55:46.313204+00:00"
+  },
+  "2f18f7da-a784-42d6-bd8b-2dac4d21f874": {
+    "run_id": "2f18f7da-a784-42d6-bd8b-2dac4d21f874",
+    "scheme_id": "SCH-EDU-001",
+    "profile_id": "372629ef-dd54-44ab-978d-df2f323896db",
+    "automation_status": "AWAITING_HUMAN_ACTION",
+    "application_status": "PENDING_CITIZEN_ACTION",
+    "current_step_index": 6,
+    "portal_session_id": "70f2b123-dc2b-4eab-8d8d-e0f59956777a",
+    "acknowledgment_number": "ACK-EDU-2026-549503",
+    "last_completed_action": "OTP_COMPLETED",
+    "last_updated": "2026-09-12T07:43:43.260881+00:00"
+  }
+}
