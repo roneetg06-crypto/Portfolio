@@ -1,0 +1,24 @@
+================================================================================
+PROJECT: Educational AI Meme Reel - Visual Assets
+TOOL USED: Google Imagen 3 / Google AI Studio
+ASPECT RATIO: 9:16 (Vertical Reel)
+STYLE: Cinematic, High-Detail 3D Render / Photorealistic
+================================================================================
+
+[SCENE 1: CONFIDENT STUDENT ENTRY]
+Prompt: A modern Indian male data science college student walking confidently into an academic examination hall holding a research paper file, smiling smugly, cinematic lighting, dramatic depth of field, realistic 8k render, 9:16 vertical aspect ratio.
+
+---
+
+[SCENE 2: SHOCKED/ANGRY PROFESSOR]
+Prompt: Close-up shot of a senior Indian college professor wearing glasses, looking extremely angry and shocked at a paper report, viva exam classroom background, expressive funny reaction face, high detail, studio lighting, 9:16 vertical aspect ratio.
+
+---
+
+[SCENE 3: ANIMATED 3D AI CHARACTER]
+Prompt: A friendly 3D animated futuristic robot character standing in front of a futuristic blackboard, pointing towards mathematical formula overlays, digital glowing aesthetic, cyber neon lighting, professional educational cartoon style, 9:16 vertical aspect ratio.
+
+---
+
+[SCENE 4: PANICKING STUDENT / MEME PUNCHLINE]
+Prompt: A cinematic funny shot of a college student sweating nervously and looking deeply terrified during a viva review, exaggerated panic face expression, vibrant meme-style aesthetic, high definition, 9:16 vertical aspect ratio.

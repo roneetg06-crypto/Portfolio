@@ -26,3 +26,15 @@ Welcome to my portfolio repository. This repository showcases end-to-end full-st
 ### 3. 📊 [Sales Analysis PostgreSQL](./Sales-Analysis-PostgreSQL)
 - **Description**: Relational database queries and exploratory data analysis investigating retail sales performance, revenue trends, and customer purchase patterns.
 - **Tech Stack**: PostgreSQL, SQL, Data Cleaning & Notebook Analysis.
+
+---
+
+### 4. 🎬 [Generative AI Educational Video Reel (Telugu Edition)](./AI-Educational-Video-Telugu)
+- **Description**: An end-to-end AI-generated educational comedic reel designed for engineering college students in Andhra Pradesh, demystifying AI hallucinations, Next-Token Prediction ($P(W_t \mid W_{<t})$), and temperature hyperparameters through Telugu voiceovers and viva humor.
+- **Key Highlights**:
+  - Scripted with Google Gemini 1.5 Pro (phonetic Telugu prompt alignment).
+  - 9:16 vertical visual scene generation using Google Imagen 3.
+  - Multi-character Telugu neural voice synthesis with authentic regional expression.
+  - Full project assets, scene clips, master vertical video reel, prompts, and scripts included.
+- **Tech Stack**: Google Gemini 1.5 Pro, Google Imagen 3, Google AI Studio, Python, Regional Speech Synthesis, Git LFS.
+
